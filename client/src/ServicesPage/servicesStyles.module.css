@@ -1,0 +1,199 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.serviceContainer{
+
+  height: auto;
+
+}
+
+.textTitle {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 5em;
+    background-color: #08aeea;
+    background-image: linear-gradient(45deg, #09009f -30%, #00ff959f 80%);
+    -webkit-background-clip: text;
+    /* // make fill color to transparent so that masked background color will be shown */
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+  }
+
+.planSummary {
+    position: relative;
+    top: 0px;
+    padding: 100px;
+    text-align: center;
+    left: 230px;
+    letter-spacing: -0.1px;
+} 
+
+
+ .planParagraph {
+  font-size: 24px;
+  line-height: 1.7;
+  letter-spacing: -0.1px;
+  width: 760px;
+  position: relative;
+  left: 70px;
+  color: black;
+}
+
+
+.stepsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+
+.stepBox {
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  background: linear-gradient(90deg, #f3f9fc 100%, #ebf3ff 100%);
+  height: 670px;
+}
+
+.stepBox:hover {
+  box-shadow: 0 0 51px rgba(0, 153, 255, 0.2);
+}
+
+.stepBoxIcon {
+  position: relative;
+  bottom: 40px;
+  left: 70px;
+}
+
+.stepBoxContent h3 {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.stepBoxContent {
+  position: relative;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 20px;
+  color: #1e1e21;
+  bottom: 60px;
+}
+
+.line:after {
+  content: "";
+  width: 10rem;
+  height: 5px;
+  position: absolute;
+  background: rgb(53 171 255 / 64%);
+  display: block;
+  right: 57px;
+  top: 286px;
+  margin: 0 auto;
+}
+
+.keypoints{
+  position: relative;
+  top: 60px;
+  line-height: 36px;
+  margin: -35px;
+  color: #17a8d3;
+  font-weight: bold;
+
+}
+
+.videokeypoints{
+  position: relative;
+  top: 32px;
+  line-height: 36px;
+  margin: -35px;
+  color: #17a8d3;
+  font-weight: bold;
+
+}
+
+.linktocontact{
+  background-color: #047aa5;
+  background-image: linear-gradient(0deg, #2af59a7e 0%, #047aa5 100%);
+  padding: 100px;
+  position: relative;
+  top: 100px;
+}
+
+.titlebackground{
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  font-size: 75px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contactButton{
+  position: absolute;
+  bottom: 100px;
+  left: 750px;
+  transform: translate(-50%, -50%);
+}
+
+.contactButton a {
+  position: relative;
+  padding: 35px 65px;
+  width: 220px;
+  border-radius: 100px;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif !important;
+  cursor: pointer;
+  background-size: 200%;
+  background-image: linear-gradient(to left, #000758, #054d4d, #4d94ff);
+  color: white;
+  font-weight: bold;
+  transition: 0.6s;
+  
+}
+
+.contactButton a:hover {
+  background-position: right;
+}
+
+
+.footerwrapper {
+  position: relative;
+  top: 265px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 147px;
+  
+}
+
+.footernumber{
+  position: relative;
+  left: 200px;
+}
+.companyemail{
+  position: relative;
+  left: 600px;
+}
+
+.footerlogo{
+  position: relative;
+  left: 572px;
+  bottom: 69px;
+}
+
+.copyrightsinfo{
+  position: relative;
+  top: 8px;
+  right: 110px;
+}
